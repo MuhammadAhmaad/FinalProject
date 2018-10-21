@@ -29,7 +29,7 @@ public class TestJoke {
         onView(withId(R.id.instructions_button))
                 .perform(click());
         onView(withId(R.id.joke_text_view))
-                .check(matches(not(withText(""))));
+                .check(matches(not(withText("there was an error in the backend."))));
     }
 
 }
